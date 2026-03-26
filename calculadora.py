@@ -15,6 +15,15 @@ import math
 
 num1 = float(input('Digite o primeiro número: '))
 num2 = float(input('Digite o segundo número: '))
+
+print("+ (adição)")
+print('- (subtração)')
+print('* (multiplicação)')
+print('/ (divisão)')
+print('^ (potência)')
+print('raiz')
+print('par/impar')
+
 operacao = input('Digite a operação desejada: ')
 
 if operacao == '+':

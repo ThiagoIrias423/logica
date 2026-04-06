@@ -31,5 +31,5 @@ elif imc < 35:
     print(f'{imc:.2f} Obesidade Grau I')
 elif imc  < 40:
     print(f'{imc:.2f} Obesidade Grau II (severa)')
-elif imc > 40:
+else:
     print(f'{imc:.2f} Obesidade Grau III (mórbida)')
